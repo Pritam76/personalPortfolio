@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#techskillholderLeft {
+  width: 30%;
+  float: left;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: cell;
+}
+#techskillholderRight {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  border: 12px solid goldenrod;
+  margin: 0px 0px 20px 0px;
+  background-color: rgb(8, 8, 49);
+}
+#descriptiontechskill {
+  border: 12px solid goldenrod;
+  height: 290px;
+  font-size: 1.5em;
+  background-color: white;
+  transition: 1s;
+  font-family: "Playfair Display", serif;
+}
+#techskillholderLeft p {
+  border: 1px solid rgb(8, 8, 49);
+  background-color: rgb(8, 8, 49);
+  color: goldenrod;
+}
+@media only screen and (max-width: 600px) {
+  #techskillholderLeft {
+    padding: 2px;
+    font-size: 1.2em;
+  }
+  #techskillholderRight {
+    padding: 20px;
+    border: 2px solid red;
+  }
+  #descriptiontechskill {
+    border: 2px solid red;
+    height: 300px;
+    font-size: 0.9em;
+  }
+}

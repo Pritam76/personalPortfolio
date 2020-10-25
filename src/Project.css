@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+#try2,
+#try22 {
+  display: flex;
+}
+#try2leftF,
+#try22rightF {
+  float: left;
+  width: 40%;
+  background-color: rgb(10, 45, 56);
+  margin: auto;
+  color: rgb(10, 45, 56);
+  text-align: center;
+  transition: 2s;
+  font-family: "Playfair Display", serif;
+}
+#try2rightF,
+#try22leftF {
+  float: left;
+  width: 60%;
+  transition: 2s;
+  text-align: left;
+  background-color: red;
+  color: red;
+  border: 2px solid black;
+  font-family: "Playfair Display", serif;
+}
+#try2leftT,
+#try22rightT {
+  float: left;
+  width: 40%;
+  background-color: rgb(10, 45, 56);
+  margin: auto;
+  color: red;
+  text-align: center;
+  transition: 2s;
+  font-family: "Playfair Display", serif;
+}
+#try2rightT,
+#try22leftT {
+  float: left;
+  width: 60%;
+  transition: 2s;
+  text-align: left;
+  background-color: red;
+  color: rgb(10, 45, 56);
+  border: 2px solid black;
+}
+
+a {
+  color: white;
+}

@@ -1,0 +1,56 @@
+.flexcontainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.EducationLeftT {
+  border-right: 12px solid rgb(7, 7, 41);
+  width: 47%;
+  transition: 1.5s;
+  text-align: right;
+  transform: translate(0px, 0px);
+  padding: 10px;
+  font-size: 1.4em;
+}
+.EducationLeftF {
+  border-right: 12px solid black;
+  width: 47%;
+  transition: 1.5s;
+  text-align: right;
+  transform: translate(-80px, 0px);
+  padding: 10px;
+  font-size: 1.4em;
+}
+.EducationRightT {
+  width: 47%;
+  padding: 5px;
+  transform: translate(0px, 0px);
+  transition: 1.5s;
+  text-align: left;
+  font-size: 1.4em;
+}
+.EducationRightF {
+  width: 47%;
+  padding: 5px;
+  transform: translate(80px, 0px);
+  transition: 1.5s;
+  text-align: left;
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexcontainer {
+    display: block;
+  }
+  .EducationLeftT,
+  .EducationLeftF,
+  .EducationRightT,
+  .EducationRightF {
+    width: 100%;
+    text-align: center;
+  }
+  .EducationLeftT {
+    width: 100%;
+    border-left: 12px solid rgb(7, 7, 41);
+  }
+}
